@@ -8,10 +8,3 @@
  }
 
  module.exports = countWords
- 
- // var x  = {}
- // 
- // x["Dupa"] = 1 + (x["DUPA"] || 0)
- // console.log(x)
- // var words = ['A', 'A', 'B']
- // console.log(countWords(words))

@@ -10,8 +10,8 @@
 	
    function reduce(arr, fn, initial) {
      if(arr.length == 0) return initial
-	 var head = arr.shift()
-	 return reduce(arr, fn, fn(initial, head, 0, arr))
+	   var head = arr.shift()
+	   return reduce(arr, fn, fn(initial, head, 0, arr))
    }
 
    module.exports = reduce
